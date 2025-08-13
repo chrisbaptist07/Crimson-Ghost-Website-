@@ -1,0 +1,65 @@
+body{
+    background-image: url('bgimage.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: crimson;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0; 
+    color: white;
+    position: relative;
+    
+}
+
+h1{
+    color: crimson;
+}
+.header{
+    color:whitesmoke;
+    text-align: center;
+}
+
+.header nav a{
+    color:antiquewhite;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.header nav a:hover {
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: underline;
+    color: antiquewhite;
+}
+
+
+
+.info{
+    color: whitesmoke;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px;
+    position: relative ;
+    top: 420px;
+}
+
+h2{
+    color: crimson;
+}
+
+
+main {
+    flex: 1;
+}
+
+.copyright {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

@@ -1,0 +1,102 @@
+/* General Page Styles */
+body {
+    background-image: url('bg2image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: crimson;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: whitesmoke;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3rem;
+    margin: 0;
+}
+
+header nav a {
+    margin: 0 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+    text-decoration-color: blue;
+    color: lightblue;
+}
+
+/* Section Styling */
+section {
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 900px;
+    border-radius: 8px;
+}
+
+section h2 {
+    color: crimson; /* Gold headings for emphasis */
+    margin-bottom: 10px;
+}
+
+/* List Styling */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+/* Tour Date Box */
+.date-item {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-left: 4px solid crimson;
+    margin: 20px auto;
+    padding: 15px;
+    max-width: 600px;
+    border-radius: 5px;
+}
+
+.date-item h3 {
+    margin: 0;
+    color: #ffcccb;
+}
+
+.date-item p {
+    margin: 5px 0 0 0;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: auto;
+}
+
+footer a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
