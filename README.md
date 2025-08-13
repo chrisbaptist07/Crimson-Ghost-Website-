@@ -26,9 +26,7 @@ The design focuses on **usability, accessibility, and performance**, while maint
 
 - **HTML5**
 - **CSS3**
-- **JavaScript** (Vanilla JS or specify framework if used)
 
 ---
 
-## 📂 Project Structure
 
